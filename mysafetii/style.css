@@ -447,29 +447,70 @@ section.features p {
     margin-top: 1.5rem;
 }
 
-.footer-container {
+.footer {
+    padding: 70px 0;
+}
+
+.container-footer {
     max-width: 1170px;
     margin: auto;
-}
-
-.footer {
-   padding: 70px 0;
-}
-
-.footer-col {
-    width: 25%;
-    padding: 0 15px;
-}
-
-.footer-col h4 {
-    font-size: 18px;
-    color: #09092D;
-    margin-bottom: 30px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 70px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #09092D;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #09092D;
+    font-weight: 200;
+    display: block;
+}
+
+.footer-col .socials a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: rgba(118, 116, 116, 0.668);
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .socials a:hover {
+    color: #24262b;
+    background: #fff;
 }
 
 /* Media Queries */
@@ -559,23 +600,8 @@ section.features p {
         /* transform-origin: left; */
         /* transition: transform 650ms; */
     }
-/*     
-    .current::before {
-        transform: scaleX(1);
-    }
-    
-    .nav-link:hover::before {
-        transform: scaleX(1);
-    } */
 
 }
-
-
-
-
-
-
-
 
 
 
@@ -652,6 +678,19 @@ section.features p {
         margin-bottom: 5px;
         flex-basis: 50%;
 
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
 

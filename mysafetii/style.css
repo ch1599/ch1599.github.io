@@ -216,6 +216,12 @@ header {
     left: 3%;
 } 
 
+.btn2 {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+} 
+
 .button {
     background-color: #09092D;
     color: #ffffff;
@@ -609,6 +615,10 @@ section.features p {
 
 @media screen and (max-width: 1200px) {
 
+     .btn2 {
+        left: 25%;
+    }
+
     .container-feature {
         width: 50%;
     }
@@ -649,6 +659,10 @@ section.features p {
 
     .move-btn {
         top: 55%;
+    }
+
+    .btn2 {
+        top: 65%;
     }
 
     .img-pic {
@@ -711,6 +725,10 @@ section.features p {
         top: 65%;
     }
 
+    .btn2 {
+        top: 75%;
+    }
+
         .columns .column {
         flex-basis: 100%;
         margin: 0 0 5px 0;
@@ -729,6 +747,10 @@ section.features p {
 
         .move-btn {
             top: 80%;
+        }
+
+        .btn2 {
+            top: 100%;
         }
 
         .title-text h1 {

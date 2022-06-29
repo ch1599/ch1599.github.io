@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    background: #CDDEFC;
+    background: #131C2D;
 }
 
 html {
@@ -59,6 +59,10 @@ left: 15%;
 transform: translate(-50%, -50%);
 }
 
+.title-text p {
+    color: #CDDEFC;
+}
+
 .p1, .p2 {
     position: absolute;
     left: 70px;
@@ -82,7 +86,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: #ECECEC;
+    background-color: #131c2dc5;
 }
 
 .nav-brand {
@@ -91,18 +95,18 @@ nav {
 
 .menu-icons i {
     font-size: 2.5rem;
-    color: #09092D;
+    color: #CDDEFC;
     cursor: pointer;
 }
 
 .close i{
-    color: #F9F6F6;
+    color: #131C2D;
 }
 
 .nav-list {
     width: 15rem;
     height: 100vh;
-    background-color: #09092D;
+    background-color: #CDDEFC;
     position: fixed;
     top: 0;
     right: -26rem;
@@ -123,11 +127,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #09092D;
+    background-color: #CDDEFC;
     /* transition: all ease 0.2s;
     animation-duration: 650ms; */
     border-radius: 10px;
-    color: #F9F6F6;
+    color: #131C2D;
 }
 
 .close {
@@ -137,12 +141,13 @@ nav ul li a:hover {
 }
 
 .nav-item {
+    color: #CDDEFC;
     margin: 1.5rem 0;
 }
 
 .nav-link {
     text-transform: none;
-    color: #F9F6F6;
+    color: #131C2D;
     font-size: 1rem;
     font-weight: 400;
     font-weight: bold;
@@ -193,7 +198,7 @@ header {
 
 .title-text h1 {
     font-size: 3rem;
-    color: #09092D;
+    color: #CDDEFC;
     z-index: 15;
 }
 
@@ -223,8 +228,8 @@ header {
 } 
 
 .button {
-    background-color: #09092D;
-    color: #ffffff;
+    background-color: #CDDEFC;
+    color: #131C2D;
     font-size: 12px;
     text-decoration: none;
     padding: 15px 3rem;
@@ -233,6 +238,7 @@ header {
 }
 
 .button:hover {
+    color: #CDDEFC;
     background-color: #09092de1;
  
 }
@@ -283,11 +289,11 @@ header {
 
 .airtag h2 {
     text-align: center;
-    color: #09092D;
+    color: #CDDEFC;
 }
 
 .airtag p {
-    color: #09092D;
+    color: #CDDEFC;
     margin: 1rem auto;
     line-height: 2rem;
 
@@ -316,7 +322,7 @@ section.features p {
     background: transparent;
     transition: 0.3s;
     flex-basis: 30%;
-    color: #09092D;
+    color: #CDDEFC;
 }
 
 .feature-text p {
@@ -355,7 +361,7 @@ section.features p {
 }
 
 .column-two-text p {
-    color: #09092D;
+    color: #CDDEFC;
     text-align: center;
     margin: 2rem 0 0 0;
 }
@@ -379,34 +385,34 @@ section.features p {
 
 .content-text h1 {
     font-size: 2.5rem;
-    color: #09092D;
+    color: #CDDEFC;
     margin: 3rem auto;
 }
 
 .airtag-text h1 {
     font-size: 2.5rem;
-    color: #09092D;
+    color: #CDDEFC;
     text-align: center;
     margin: 3rem auto;
 }
 
 .download-text h1 {
     font-size: 2.5rem;
-    color: #09092D;
+    color: #CDDEFC;
     text-align: center;
     margin: 3rem auto;
 }
 
 .content-text p {
     font-size: 1rem;
-    color: #09092D;
+    color: #CDDEFC;
     line-height: 2rem;
     width: 500px;
 }
 
 .column-two-text p {
     font-size: 1rem;
-    color: #09092D;
+    color: #CDDEFC;
     line-height: 2rem;
     width: 500px;
     margin: 1rem 0 0 0;
@@ -420,7 +426,7 @@ section.features p {
 #works-text h1 {
     text-align: center;
     font-family: 'Inter', sans-serif;
-    color: #09092D;
+    color: #CDDEFC;
     
 }
 
@@ -437,14 +443,14 @@ section.features p {
 #key-text h1 {
     text-align: center;
     font-family: 'Inter', sans-serif;
-    color: #09092D;
+    color: #CDDEFC;
     margin-bottom: -1rem;
 }
 
 .knowairtags-text h1 {
     text-align: center;
     font-family: 'Inter', sans-serif;
-    color: #09092D;
+    color: #CDDEFC;
     margin: 5rem 0 -3rem 0;
 }
 
@@ -474,7 +480,7 @@ section.features p {
 
 .footer-col h4 {
     font-size: 18px;
-    color: #09092D;
+    color: #CDDEFC;
     margin-bottom: 35px;
     position: relative;
 }
@@ -484,7 +490,7 @@ section.features p {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background: #e91e63;
+    background: #CDDEFC;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -496,7 +502,7 @@ section.features p {
 
 .footer-col ul li a {
     font-size: 16px;
-    color: #09092D;
+    color: #CDDEFC;
     font-weight: 200;
     display: block;
 }
@@ -583,7 +589,7 @@ section.features p {
     
     .nav-link,
     .current {
-        color: #09092D;
+        color: #CDDEFC;
         font-weight: 500;
         position: relative;
         /* top: 1rem; */

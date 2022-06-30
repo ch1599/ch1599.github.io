@@ -171,8 +171,11 @@ header {
 
 }
 
-.logo {
-    padding-left: 3rem;
+
+
+.logo img {
+    margin: 2rem;
+    width: 65px;
 }
 
 

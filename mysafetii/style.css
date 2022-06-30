@@ -127,11 +127,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #CDDEFC;
+    color: #131C2D;
+    background: #a2b5d6;
     /* transition: all ease 0.2s;
     animation-duration: 650ms; */
     border-radius: 10px;
-    color: #131C2D;
 }
 
 .close {
@@ -238,8 +238,8 @@ header {
 }
 
 .button:hover {
-    color: #CDDEFC;
-    background-color: #09092de1;
+    color: #131C2D;
+    background: #a2b5d6;
  
 }
 
@@ -511,18 +511,18 @@ section.features p {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background: rgba(118, 116, 116, 0.668);
+    background: #cddefcde;
     margin: 0 5px 5px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #fff;
-    transition: all 0.5s ease;
+    color: #131C2D;
+    /* transition: all 0.5s ease; */
 }
 
 .footer-col .socials a:hover {
-    color: #24262b;
-    background: #fff;
+    color: #131C2D;
+    background: #a2b5d6;
 }
 
 /* Media Queries */
